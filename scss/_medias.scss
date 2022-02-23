@@ -1,0 +1,368 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .gridContainer{
+        display: grid;
+        gap: 10px;
+        grid-template: 
+        "header header"   auto
+        "main   main"     auto
+        "sidebar sidebar" auto
+        "footer footer"   auto /
+        auto    230px;
+    }
+    .gridHeader{
+        grid-area: header;
+        background-color: $blanco ;
+    }
+    .gridMain{
+        grid-area: main;
+        background-color: $blanco;
+    }
+    .gridSidebar{
+        grid-area: sidebar;
+        background-color: $blanco;
+    }
+    .gridFooter{
+        grid-area: footer;
+        background-color: $gris;
+    }
+//Navbar
+    .navLinks{
+        list-style: none;
+        margin-right: 32px;
+        li{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin: auto;
+        }
+    }
+//Main Index
+    .flexLastNews{
+        margin: auto;
+    }
+    .lastNewOne{
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+        img{
+            display: inline;
+            margin: auto;
+        }
+    }
+    .lastNewTwo{
+        flex-direction: column !important;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        img{
+            margin: auto;
+        }
+    }
+    .gridSidebar .comoLlegar{
+        display: flex;
+        flex-direction: column;
+        iframe{
+            display: flex;
+            margin: auto;
+            justify-items: center;
+        }
+    }
+//Nosotros
+.gridMainNosotros{
+    .gridMainContainerNosotros{
+        .flexNosotros{
+            margin: 0 30px 0 30px;
+        }
+    }
+}
+//Novedades
+.gridMainNovedades{
+    .gridMainContainerNovedades{
+        .lastNewOneNovedades{
+            margin: 20px;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .lastNewTwoNovedades{
+            margin: 20px;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
+//Educación
+.gridMainEducacion{
+    .gridMainContainerEducacion{
+        .lastNewOneEducacion{
+            margin: 20px;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .lastNewTwoEducacion{
+            margin: 20px;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
+//Galería
+.gridMainGaleria{
+    .gridMainContainerGaleria{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        .cardOne{
+            margin-bottom: 30px;
+        }
+        .cardTwo{
+            margin-bottom: 30px;
+        }
+        .cardThree{
+            margin-bottom: 30px;
+        }
+        .cardFour{
+            margin-bottom: 30px;
+        }
+        .cardFive{
+            margin-bottom: 30px;
+        }
+        .cardSix{
+            margin-bottom: 30px;
+        }
+        .cardSeven{
+            margin-bottom: 30px;
+        }
+        .cardEight{
+            margin-bottom: 30px;
+        }
+
+    }
+}
+//Contacto
+.gridMainContacto{
+    .gridMainContainerContacto{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px 0 10px;
+        .contactFormTextArea{
+            margin-left: 20%;
+            align-items: center;
+        }
+        .contactForm{
+            flex-direction: column;
+            margin-left: -100px ;
+            padding: auto;
+        }
+    }
+}
+//Navbar Footer
+    .gridFooter{
+        .gridFooterContainer{
+            .navLinksFooter{
+                text-align: center;
+            }
+        }
+    }
+//Copy
+    .gridFooter{
+        .gridFooterContainer{
+            .socialMediaFooter{
+                h2{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 919px) {
+    .gridContainer{
+        display: grid;
+        gap: 10px;
+        grid-template: 
+        "header header"  auto
+        "main   sidebar" auto
+        "footer footer"  auto /
+        auto    230px; 
+    }
+
+    .gridHeader{
+        grid-area: header;
+        background-color: $blanco ;
+    }
+    .gridMain{
+        grid-area: main;
+        background-color: $blanco;
+    }
+    .gridSidebar{
+        grid-area: sidebar;
+        background-color: $blanco;
+    }
+    .gridFooter{
+        grid-area: footer;
+        background-color: $gris;
+    }
+//Navbar
+    .navLinks{
+        list-style: none;
+        margin-right: 32px;
+        li{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin: auto;
+        }
+    }
+//Main Index
+.flexLastNews{
+    margin: auto;
+}
+.lastNewOne{
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    img{
+        display: inline;
+        margin: auto;
+    }
+}
+.lastNewTwo{
+    flex-direction: column !important;
+    display: flex;
+    justify-content: center;
+    margin: 10px !important;
+    img{
+        margin: auto;
+    }
+}
+.gridSidebar .comoLlegar{
+    display: flex;
+    flex-direction: column;
+    iframe{
+        display: flex;
+        margin: auto;
+        justify-items: center;
+    }
+}
+//Novedades
+.gridMainNovedades{
+    .gridMainContainerNovedades{
+        .lastNewOneNovedades{
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+            img{
+                display: inline;
+                margin: auto;
+            }
+        }
+        .lastNewTwoNovedades{
+            flex-direction: column !important;
+            display: flex;
+            justify-content: center;
+            margin: 10px !important;
+            img{
+                margin: auto;
+            }
+        }
+    }
+}
+//Educación
+.gridMainEducacion{
+    .gridMainContainerEducacion{
+        .lastNewOneEducacion{
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+            img{
+                display: inline;
+                margin: auto;
+            }
+        }
+        .lastNewTwoEducacion{
+            flex-direction: column !important;
+            display: flex;
+            justify-content: center;
+            margin: 10px !important;
+            img{
+                margin: auto;
+            }
+        }
+    }
+}
+//Galería
+.gridMainGaleria{
+    .gridMainContainerGaleria{
+        grid-template-columns: repeat(2, 1fr);
+        %cards{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .cardOne{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 1/2;
+        }
+        .cardTwo{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 2/3;
+        }
+        .cardThree{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 1/2;
+        }
+        .cardFour{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 2/3;
+        }
+        .cardFive{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 1/2;
+        }
+        .cardSix{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 2/3;
+        }
+        .cardSeven{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 1/2;
+        }
+        .cardEight{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            grid-column: 2/3;
+        }
+    }
+}
+//Contacto
+.gridMainContacto{
+    .gridMainContainerContacto{
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px 0 10px;
+        .contactFormTextArea{
+            margin-left: 20%;
+            align-items: center;
+        }
+        .contactForm{
+            flex-direction: column;
+            
+        }
+    }
+}
+}
